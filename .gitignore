@@ -9,11 +9,8 @@ dist-ssr
 .env.local
 assistant/.env
 
-# Herramientas locales
-.agents/
-.vscode/
+# Configuración local con credenciales
 opencode.json
-skills-lock.json
 
 # Logs
 logs
