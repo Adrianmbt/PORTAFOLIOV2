@@ -1,28 +1,20 @@
-import { LanguageProvider } from './context/LanguageContext'
-import Navbar from './components/layout/Navbar'
-import Footer from './components/layout/Footer'
-import Hero from './components/sections/Hero'
-import Education from './components/sections/Education'
-import Experience from './components/sections/Experience'
-import TechStack from './components/sections/TechStack'
-import Impact from './components/sections/Impact'
-import Contact from './components/sections/Contact'
-import Background from './components/Background'
+import { useState } from 'react';
+import Assistant from './components/Assistant';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Trajectory from './components/Trajectory';
 
 export default function App() {
+  const [assistantOpen, setAssistantOpen] = useState(false);
+
   return (
-    <LanguageProvider>
-      <Background />
-      <Navbar />
-      <main>
+    <>
+      <Header />
+      <main id="top">
         <Hero />
-        <Education />
-        <Experience />
-        <TechStack />
-        <Impact />
-        <Contact />
+        <Trajectory onAsk={() => setAssistantOpen(true)} />
       </main>
-      <Footer />
-    </LanguageProvider>
-  )
+      <Assistant open={assistantOpen} onOpenChange={setAssistantOpen} />
+    </>
+  );
 }

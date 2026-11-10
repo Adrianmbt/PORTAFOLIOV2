@@ -1,3 +1,20 @@
+# Dependencias y build
+node_modules
+dist
+dist-ssr
+*.local
+
+# Variables de entorno
+.env
+.env.local
+assistant/.env
+
+# Herramientas locales
+.agents/
+.vscode/
+opencode.json
+skills-lock.json
+
 # Logs
 logs
 *.log
@@ -7,16 +24,9 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Sistema y editor
 .DS_Store
+.idea
 *.suo
 *.ntvs*
 *.njsproj

@@ -1,0 +1,108 @@
+{
+  "owner": {
+    "name": "Adrián M. Bello T.",
+    "role": "Software & AI Engineer",
+    "stack": ["Python", "FastAPI", "React", "Cloud", "AI Solutions"],
+    "email": "contact@adrianbello.com"
+  },
+  "chunks": [
+    {
+      "id": "perfil",
+      "topic": "perfil",
+      "title": "Perfil profesional",
+      "text": "Adrián M. Bello T. es Software & AI Engineer. Diseña y lidera sistemas críticos para instituciones públicas y operaciones privadas, combinando arquitectura de software, liderazgo técnico e IA aplicada. Su stack principal incluye Python, FastAPI, React, cloud y soluciones de IA.",
+      "keywords": ["perfil", "quien", "adrian", "bello", "ingeniero", "software", "experiencia", "trayectoria", "carrera"]
+    },
+    {
+      "id": "propuesta",
+      "topic": "enfoque",
+      "title": "Cómo trabaja",
+      "text": "Su enfoque tiene tres reglas: diagnóstico honesto antes de proponer código, arquitectura primero para evitar reescrituras cada año, y entrega junto al equipo del cliente para que el sistema quede sostenible. Habla de resultados medibles, no solo de entregables.",
+      "keywords": ["enfoque", "metodologia", "trabajo", "proceso", "arquitectura", "equipo", "diagnostico", "sostenible"]
+    },
+    {
+      "id": "contacto",
+      "topic": "contacto",
+      "title": "Contacto",
+      "text": "La vía más rápida es escribir a contact@adrianbello.com con el contexto del proyecto: problema, resultado esperado y restricciones de tiempo o equipo. Adrián está disponible para consultoría, liderazgo técnico y nuevos proyectos.",
+      "keywords": ["contacto", "contactar", "correo", "email", "escribir", "llamar", "reunion", "hablar", "contratar", "disponible"]
+    },
+    {
+      "id": "disponibilidad",
+      "topic": "contacto",
+      "title": "Disponibilidad",
+      "text": "Adrián está abierto a consultoría y nuevos proyectos. El alcance y la modalidad se definen en una primera conversación, sin compromiso. Puedes iniciar en contact@adrianbello.com.",
+      "keywords": ["disponibilidad", "disponible", "abierto", "consultoria", "proyecto", "nuevo", "modalidad", "alcance"]
+    },
+    {
+      "id": "inicio-proyecto",
+      "topic": "contacto",
+      "title": "Cómo iniciar un proyecto",
+      "text": "Para avanzar, comparte el problema, el resultado esperado y las restricciones (tiempo, equipo, sistemas actuales). Con eso se propone un diagnóstico y un plan por fases. Escríbelo a contact@adrianbello.com.",
+      "keywords": ["iniciar", "empezar", "avanzar", "propuesta", "plan", "fases", "diagnostico", "requerimientos", "brief"]
+    },
+    {
+      "id": "sematrig",
+      "topic": "sistemas",
+      "title": "SEMATRIG — Recaudación municipal",
+      "text": "SEMATRIG es un sistema de pago de impuestos municipal. Adrián lideró la digitalización del recaudo, integrando pasarelas de pago y auditoría en tiempo real. Resultados: más de 5 millones de transacciones procesadas, más de 10.000 ciudadanos beneficiados y 35% menos carga administrativa. Stack: Laravel, PHP y PostgreSQL.",
+      "keywords": ["sematrig", "impuestos", "recaudacion", "municipal", "pagos", "transacciones", "ciudadanos", "laravel", "postgresql", "sistema"]
+    },
+    {
+      "id": "sabat",
+      "topic": "sistemas",
+      "title": "SABAT — Gestión tributaria",
+      "text": "SABAT es una plataforma de gestión tributaria avanzada. Optimiza procesos de fiscalización y control de ingresos institucionales, con trazabilidad y procesos auditables.",
+      "keywords": ["sabat", "tributaria", "fiscalizacion", "ingresos", "auditoria", "gestion", "sistema"]
+    },
+    {
+      "id": "don-beni",
+      "topic": "sistemas",
+      "title": "Don Beni — Inventario multicurrency",
+      "text": "Para Don Beni, Adrián construyó un software de inventario multicurrency y escalable: control de stock automatizado y reportes financieros complejos para una operación comercial.",
+      "keywords": ["don", "beni", "inventario", "stock", "multicurrency", "finanzas", "reportes", "comercial", "sistema"]
+    },
+    {
+      "id": "sigraed",
+      "topic": "sistemas",
+      "title": "SIGRAED — Registro de emergencias",
+      "text": "SIGRAED es una plataforma de registro y gestión para entidades de emergencia y protección civil. Centraliza registros y agiliza la coordinación operativa.",
+      "keywords": ["sigraed", "emergencias", "proteccion", "civil", "registro", "gestion", "plataforma", "sistema"]
+    },
+    {
+      "id": "uptjaa",
+      "topic": "academia",
+      "title": "Mentoría técnica UPTJAA",
+      "text": "En UPTJAA, Adrián ejerce mentoría técnica: acompaña a la siguiente generación de ingenieros, forma en buenas prácticas y transfiere tecnología institucional mediante proyectos reales.",
+      "keywords": ["uptjaa", "mentoria", "docencia", "formacion", "academia", "estudiantes", "transferencia", "ingenieros"]
+    },
+    {
+      "id": "ia-automatizacion",
+      "topic": "ia",
+      "title": "IA aplicada y automatización",
+      "text": "Adrián aplica IA donde reduce trabajo manual o mejora decisiones: soluciones sobre Python y FastAPI, integraciones con React y automatizaciones en n8n. Este mismo asistente es una muestra: recuperación de conocimiento del portafolio (RAG parcial) orquestada con n8n y desplegada con Docker.",
+      "keywords": ["ia", "inteligencia", "artificial", "ai", "automatizacion", "n8n", "rag", "docker", "fastapi", "python", "asistente", "bot"]
+    },
+    {
+      "id": "servicios",
+      "topic": "servicios",
+      "title": "Servicios",
+      "text": "Servicios: consultoría técnica, arquitectura de sistemas, liderazgo de equipos, modernización de plataformas, APIs, integración de datos y automatización con IA y n8n.",
+      "keywords": ["servicios", "consultoria", "arquitectura", "liderazgo", "modernizacion", "apis", "datos", "automatizacion", "ofrece"]
+    },
+    {
+      "id": "stack",
+      "topic": "stack",
+      "title": "Stack técnico",
+      "text": "Stack: Python, FastAPI, React, Tailwind, Laravel/PHP, PostgreSQL/SQL, Docker, n8n, cloud y APIs de IA. Selecciona herramientas según el problema, no por moda.",
+      "keywords": ["stack", "tecnologias", "python", "fastapi", "react", "tailwind", "laravel", "php", "postgresql", "sql", "docker", "n8n", "cloud", "herramientas"]
+    },
+    {
+      "id": "resultados",
+      "topic": "resultados",
+      "title": "Resultados medibles",
+      "text": "Los resultados que Adrián destaca son concretos: más de 5 millones de transacciones procesadas, más de 10.000 ciudadanos beneficiados y 35% menos carga administrativa en la operación de recaudación municipal. También ha formado equipos y mentoreado ingenieros.",
+      "keywords": ["resultados", "metricas", "numeros", "impacto", "5m", "10k", "35", "transacciones", "beneficiados", "logros"]
+    }
+  ]
+}
